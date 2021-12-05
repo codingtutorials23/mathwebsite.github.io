@@ -1,6 +1,6 @@
 function go(){
   if(document.getElementById("option").value == 1){
-    window.location.href = "#math";
+    window.location.hash = "#math";
     math()
   }
 }
@@ -12,7 +12,7 @@ function math(){
     document.getElementById("adding").style.display ="block";
     options = false;
   }
-  if(window.location.hash== "#math=adding+1+20"){
+  if(window.location.hash == "#math=adding+1+20"){
     document.getElementById("1plus20").style.display ="block";  
   }
 }
