@@ -8,7 +8,7 @@ function math(){
   document.getElementById("main").style.display ="none";
  var options = ["<a href='#math+adding'>adding</a>"]
  document.write(options);
-  if(window.location.hash =="#math=adding"){
+  if(window.location.hash =="#math+adding"){
     document.getElementById("adding").style.display ="block";
     options = false;
   }
