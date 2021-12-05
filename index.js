@@ -26,7 +26,7 @@ if(window.location.hash =="#math"){
     document.getElementById("1plus20").style.display ="block";  
  }
 if(window.undifiend){
-  window.location.assign("404.html");
+  window.location.assign("404.java");
 }
 if(window.location.hash =="#math+adding"){
   document.getElementById("adding").style.display ="block";
