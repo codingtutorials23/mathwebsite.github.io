@@ -28,3 +28,7 @@ if(window.location.hash =="#math"){
 if(window.undifiend){
   window.location.assign("404.html");
 }
+if(window.location.hash =="#math+adding"){
+  document.getElementById("adding").style.display ="block";
+  document.getElementById("main").style.display ="none";
+}
