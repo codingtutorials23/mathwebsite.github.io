@@ -10,7 +10,7 @@ function math(){
  document.write(options);
   if(window.location.hash =="#math+adding"){
     document.getElementById("adding").style.display ="block";
-    options = false;
+    options.style.display ="none";
   }
   if(window.location.hash == "#math+adding+1+20"){
     document.getElementById("1plus20").style.display ="block";  
