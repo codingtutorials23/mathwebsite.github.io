@@ -4,7 +4,7 @@ function loadpage(){
     document.getElementById("content").innerHTML =
       this.responseText;
   }
-  http.open("GET", "index.xml");
+  http.open("GET", "home.xml");
   http.send();
 }
 document.body.onload = loadpage()
