@@ -1,9 +1,33 @@
-<div class="topnav"><h2 class="titleheader">
-  Math</h2><select id="option"><option value="1">Math</option><option>English</option></select>
-  <button onclick="go()" id="go" class="go">go</button></div>
-  <div class="adding"id="adding"><h1>Adding</h1>
-    <a href="#math+adding+1+20">Adding questions 1-20</a>
-  </div>
-<div class="main" id="main"><h1>Thanks for using this website!</h1></div>
-<div id="1plus20" class="oneplustwenty"><h1>Questions 1-20</h1></div>
-<head><link rel="stylesheet" href="https://000673764.codepen.website/home.css"/></head>
+.adding{
+  display:none;
+}
+.go{
+  border: solid green;
+  background-color: black;
+  color:white;
+}
+.adding h1{
+  text-align:center;
+}
+.titleheader{
+  animation-name:titleheader;
+  animation-duration: 4s;
+}
+@keyframes titleheader{
+  from {color:green;}
+  to {color:red;}
+}
+.topnav{
+  background: linear-gradient(to top, blue, 
+ purple,black);
+  color:black;
+}
+body{
+ background-color:white;
+}
+.adding a{
+  text-align: center;
+}
+.oneplustwenty{
+  display:none;
+}
