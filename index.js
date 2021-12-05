@@ -12,7 +12,7 @@ function math(){
     document.getElementById("adding").style.display ="block";
     options = false;
   }
-  if(window.location.hash == "#math=adding+1+20"){
+  if(window.location.hash == "#math+adding+1+20"){
     document.getElementById("1plus20").style.display ="block";  
   }
 }
@@ -22,7 +22,7 @@ if(window.location.hash == "#math"){
 if(window.location.hash =="#math"){
   math()
 }
- if(window.location.hash == "#math=adding+1+20"){
+ if(window.location.hash == "#math+adding+1+20"){
     document.getElementById("1plus20").style.display ="block";  
  }
 if(window.undifiend){
