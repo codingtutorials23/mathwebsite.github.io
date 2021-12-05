@@ -1,10 +1,4 @@
-function loadpage(){
-  const http = new XMLHttpRequest();
-  http.onload = function(){
-    document.getElementById("content").innerHTML =
-      this.responseText;
-  }
-  http.open("GET", "home.xml");
-  http.send();
+function ads(){
+  var ad = document.getElementById("search").value;
+  document.getElementById("ads").innerHTML = ad;
 }
-document.body.onload = loadpage()
