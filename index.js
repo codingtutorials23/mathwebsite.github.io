@@ -1,15 +1,3 @@
-function getToken() {
-  var requestStr = "home.php";
-    $.ajax({
-    url: requestStr,
-    type: "GET",
-    cache: true,
-    dataType: 'json',
-    success: function (data) {
-      bmProductsData = data.jsonKey1;
-    }
-  });
-}
 function go(){
   if(document.getElementById("option").value == 1){
     window.location.hash = "#math";
