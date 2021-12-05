@@ -1,2 +1,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-<div class="nav"><button><i class="fa fa-home"></i></button><button><i class="fa fa-bars"></i>Menu</button></div>
+<div class="nav"><button><i class="fa fa-home"></i></button><button onclick="menu()"><i class="fa fa-bars" data-toggle="popover" title="Menu" data-content="Hello"></i>Menu</button></div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<div class="container"><h3>Menu</h3>
+  <a href="#" data-toggle="popover" title="Menu" data-content="Hello">toggle pop over</a>
+</div>
+<script>
+  $(document.ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+</script>
